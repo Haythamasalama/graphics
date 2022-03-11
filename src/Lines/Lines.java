@@ -1,4 +1,8 @@
-package GraphicJava;
+package Lines;
+
+
+import GraphicJava.JFrameProject;
+import GraphicJava.JPanelProject;
 
 import java.awt.*;
 
@@ -33,5 +37,11 @@ public class Lines extends JPanelProject {
         this.rectangle(g);
         this.triangle(g);
         this.hLetters(g);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("welcome to graphic ---> lines");
+        // drawLine method example
+        new JFrameProject(new Lines(), "lines");
     }
 }

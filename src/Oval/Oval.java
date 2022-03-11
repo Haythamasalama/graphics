@@ -30,6 +30,13 @@ public class Oval  extends JPanelProject {
         g.setColor(Color.decode("#03A9F4"));
         g.fillOval(20,220,100,100);
         g.fillOval(220,220,100,100);
+
+    public void example4(Graphics g) {
+        for (int i = 15; i <= 400; i += 10) {
+            g.drawOval(40, 40, i, i);
+        }
+    }
+
     }
     @Override
     public void paint(Graphics g) {

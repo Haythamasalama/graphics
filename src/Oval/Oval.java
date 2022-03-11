@@ -50,6 +50,13 @@ public class Oval extends JPanelProject {
         }
     }
 
+    public void example6(Graphics g) {
+        g.drawLine(250,0,250,500);
+        g.drawLine(0,250,500,250);
+        g.drawOval(150,150,200,200);
+        g.drawOval(150,150,200,200);
+    }
+
     @Override
     public void paint(Graphics g) {
         super.paint(g);
@@ -58,6 +65,7 @@ public class Oval extends JPanelProject {
         this.example3(g);
         this.example4(g);
         this.example5(g);
+        this.example6(g);
     }
 
     public static void main(String[] args) {

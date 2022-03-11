@@ -26,4 +26,12 @@ public class Lines extends JPanelProject {
         g.drawLine(10,150,200,150);
         g.drawLine(200,150,200,300);
     }
+
+    @Override
+    public void paint(Graphics g) {
+        super.paint(g);
+        this.rectangle(g);
+        this.triangle(g);
+        this.hLetters(g);
+    }
 }

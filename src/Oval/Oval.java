@@ -37,7 +37,16 @@ public class Oval  extends JPanelProject {
         }
     }
 
+    public void example5(Graphics g) {
+        int x = 250;
+        int y = 250;
+
+        for (int i = 20; i <= 200; i += 10) {
+            g.drawOval(x - i, y - i, i * 2, i * 2);
+            g.drawRect(x - i, y - i, i * 2, i * 2);
+        }
     }
+
     @Override
     public void paint(Graphics g) {
         super.paint(g);

@@ -16,6 +16,13 @@ public class Oval  extends JPanelProject {
         g.drawOval(80,80,300,300);
     }
 
+    @Override
+    public void paint(Graphics g) {
+        super.paint(g);
+        this.circle(g);
+        this.oval(g);
+    }
+
     public static void main(String[] args) {
         System.out.println("welcome to graphic ---> Oval");
         // drawOval method example

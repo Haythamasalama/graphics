@@ -4,6 +4,7 @@ import java.awt.*;
 
 public class Lines extends JPanelProject {
 
+
     public void rectangle(Graphics g){
         g.setColor(Color.red);
         g.drawLine(10,10,200,10);
@@ -11,4 +12,12 @@ public class Lines extends JPanelProject {
         g.drawLine(10,200,200,200);
         g.drawLine(200,10,200,200);
     }
+
+    public void triangle(Graphics g){
+        g.setColor(Color.red);
+        g.drawLine(10,10,200,300);
+        g.drawLine(200,300,10,300);
+        g.drawLine(10,10,10,300);
+    }
+
 }

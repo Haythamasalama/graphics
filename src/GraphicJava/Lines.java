@@ -20,4 +20,10 @@ public class Lines extends JPanelProject {
         g.drawLine(10,10,10,300);
     }
 
+    public void hLetters(Graphics g){
+        g.setColor(Color.red);
+        g.drawLine(10,10,10,300);
+        g.drawLine(10,150,200,150);
+        g.drawLine(200,150,200,300);
+    }
 }

@@ -110,6 +110,9 @@ public class Oval extends JPanelProject {
         this.example4(g);
         this.example5(g);
         this.example6(g);
+        this.example7(g);
+        this.example8(g);
+        this.example9(g);
     }
 
     public static void main(String[] args) {

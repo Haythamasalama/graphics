@@ -63,6 +63,29 @@ public class Oval extends JPanelProject {
         g.setColor(Color.green);
         g.fillOval(225,150,60,120);
     }
+
+    public void example8(Graphics g) {
+        g.setColor(Color.cyan);
+        g.drawLine(200, 200, 300, 200);
+        g.drawLine(200, 200, 150, 300);
+        g.drawLine(300, 200, 350, 300);
+        g.drawLine(200, 400, 300, 400);
+        g.drawLine(350, 300, 300, 400);
+        g.drawLine(150, 300, 200, 400);
+        g.setColor(Color.pink);
+        g.drawLine(150, 300, 350, 300);
+        g.drawLine(300, 200, 200, 400);
+        g.drawLine(200, 200, 300, 400);
+        g.setColor(Color.red);
+        g.fillOval(195, 195, 15, 15);
+        g.fillOval(295, 195, 15, 15);
+        g.fillOval(145, 295, 15, 15);
+        g.fillOval(345, 295, 15, 15);
+        g.fillOval(195, 395, 15, 15);
+        g.fillOval(295, 395, 15, 15);
+        g.fillOval(245, 295, 15, 15);
+    }
+
     @Override
     public void paint(Graphics g) {
         super.paint(g);

@@ -86,6 +86,21 @@ public class Oval extends JPanelProject {
         g.fillOval(245, 295, 15, 15);
     }
 
+    public void example9(Graphics g) {
+        int xc = 250;
+        int yc = 250;
+
+        g.setColor(Color.BLUE);
+        g.drawRect(xc-180, yc-180,180*2, 180*2);
+
+        g.setColor(Color.red);
+        for (int r= 80; r < 200; r+=20)
+            g.drawOval(xc-r, yc-r, r, 2*r);
+
+        for (int r= 80; r < 200; r+=20)
+            g.drawOval(xc,yc-r, r,2*r);
+    }
+
     @Override
     public void paint(Graphics g) {
         super.paint(g);

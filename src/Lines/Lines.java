@@ -1,8 +1,8 @@
 package Lines;
 
 
-import GraphicJava.JFrameProject;
-import GraphicJava.JPanelProject;
+import SetupProject.JFrameProject;
+import SetupProject.JPanelProject;
 
 import java.awt.*;
 

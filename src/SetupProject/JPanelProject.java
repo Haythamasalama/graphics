@@ -1,4 +1,4 @@
-package GraphicJava;
+package SetupProject;
 
 import javax.swing.JPanel;
 import java.awt.*;

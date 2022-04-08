@@ -44,6 +44,22 @@ public class Lines extends JPanelProject {
         }
     }
 
+    public void example6(Graphics g){
+        g.drawLine( 150,100,250,100);
+        g.drawLine( 150,100,100,200);
+        g.drawLine( 250,100,300,200);
+        g.drawLine( 150,300,250,300);
+        g.drawLine( 300,200,250,300);
+        g.drawLine( 100,200,150,300);
+        g.drawLine( 100,200,300,200);
+        g.drawLine( 200,100,200,300);
+        g.drawLine( 250,100,150,300);
+        g.drawLine( 150,100,250,300);
+    }
+
+
+
+
     @Override
     public void paint(Graphics g) {
         super.paint(g);
@@ -51,6 +67,7 @@ public class Lines extends JPanelProject {
         this.triangle(g);
         this.hLetters(g);
         this.example5(g);
+        this.example6(g);
     }
 
     public static void main(String[] args) {

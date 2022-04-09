@@ -101,6 +101,16 @@ public class Oval extends JPanelProject {
             g.drawOval(xc,yc-r, r,2*r);
     }
 
+    public void example10(Graphics g) {
+        int  x =50 , y = 50 ;
+        g.drawRect(x,y,400,400);
+        g.drawOval(x+150,y,100,100);
+        g.drawOval(x+100,y+100,200,200);
+        g.drawOval(x+150,y+300,100,100);
+        g.drawOval(x,y+150,100,100);
+        g.drawOval(x+300,y+150,100,100);
+    }
+
     @Override
     public void paint(Graphics g) {
         super.paint(g);
@@ -113,6 +123,7 @@ public class Oval extends JPanelProject {
         this.example7(g);
         this.example8(g);
         this.example9(g);
+        this.example10(g);
     }
 
     public static void main(String[] args) {

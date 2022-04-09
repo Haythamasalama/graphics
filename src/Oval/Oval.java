@@ -111,6 +111,26 @@ public class Oval extends JPanelProject {
         g.drawOval(x+300,y+150,100,100);
     }
 
+    public void example11(Graphics g) {
+        int xc = 250 , yc = 250 ,r1 = 200 ,r2 =150;
+
+        for(int i=0 ; i<360 ; i++){
+            int x = (int) Math.round(r1 * Math.cos(i * Math.PI/180));
+            int y = (int) Math.round(r1 * Math.sin(i * Math.PI/180));
+            g.drawLine(xc+x,yc+y ,xc+x,yc+y);
+        }
+        // or with 90 degree
+        for(int i=0 ; i<90 ; i++){
+            int x = (int) Math.round(r2 * Math.cos(i * Math.PI/180));
+            int y = (int) Math.round(r2 * Math.sin(i * Math.PI/180));
+            g.drawLine(xc+x,yc+y ,xc+x,yc+y);
+            g.drawLine(xc+x,yc-y ,xc+x,yc-y);
+            g.drawLine(xc-x,yc-y ,xc-x,yc-y);
+            g.drawLine(xc-x,yc+y ,xc-x,yc+y);
+        }
+        // you can do with 45 degree but with additional calculation ...
+    }
+
     @Override
     public void paint(Graphics g) {
         super.paint(g);
@@ -124,6 +144,7 @@ public class Oval extends JPanelProject {
         this.example8(g);
         this.example9(g);
         this.example10(g);
+        this.example11(g);
     }
 
     public static void main(String[] args) {

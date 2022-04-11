@@ -28,6 +28,14 @@ public class Polygons extends JPanelProject {
         rec.addPoint(200,250);
         g.drawPolygon(rec);
     }
+
+    public void triangle(Graphics g) {
+        g.drawPolygon(
+                new int[]{100, 200, 150},
+                new int[]{100, 100, 200},
+                3
+        );
+    }
     @Override
     public void paint(Graphics g) {
     }

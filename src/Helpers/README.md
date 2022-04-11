@@ -2,10 +2,10 @@
 
 ## Contents
 
-- [RandomColor](#Random Color)
+- [Random Color](#random-color)
 
 ## Random Color
 
-`java
+```java
    Color  color =  new Helpers().randomColor();
-`
+```

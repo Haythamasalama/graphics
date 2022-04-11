@@ -36,6 +36,34 @@ public class Polygons extends JPanelProject {
                 3
         );
     }
+
+    public void example3(Graphics g) {
+        g.setColor(Color.green);
+        g.fillPolygon(
+                new int[]{100, 200, 150},
+                new int[]{100, 100, 150},
+                3
+        );
+        g.setColor(Color.yellow);
+        g.fillPolygon(
+                new int[]{150, 200, 200},
+                new int[]{150, 100, 200},
+                3
+        );
+        g.setColor(Color.black);
+        g.fillPolygon(
+                new int[]{150, 100, 200},
+                new int[]{150, 200, 200},
+                3
+        );
+        g.setColor(Color.gray);
+        g.fillPolygon(
+                new int[]{150, 100, 100},
+                new int[]{150, 200, 100},
+                3
+        );
+    }
+
     @Override
     public void paint(Graphics g) {
     }

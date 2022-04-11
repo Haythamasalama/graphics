@@ -7,13 +7,13 @@
 ## Contents 
 
 - [Install](#install)
-- [Line](#Lines)
-- [Rectangle](#Rectangle)
-- [Oval](#Oval)
-- [Arc](#Arc)
-- [Animations](#Animations)
-- [Polygon](#Polygons)
-- [Helpers](#Helpers)
+- [Line](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Line)
+- [Rectangle](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Rectangle)
+- [Oval](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Oval)
+- [Arc](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Arc)
+- [Animations](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Animations)
+- [Polygon](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Polygon)
+- [Helpers](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Helpers)
 - [Contributing](#Contributing)
 - [License](#License)
 

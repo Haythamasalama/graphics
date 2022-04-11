@@ -16,17 +16,17 @@
 - [Contributing](#Contributing)
 - [License](#License)
 
-### Install
+## Install
 
 ```sh
 $ git clone https://github.com/HaythamaSalama/graphic-java
 ```
 
-### Contributing
+## Contributing
 
 Pull requests and stars are always welcome.
 
-### License
+## License
 
 Copyright © 2022, [Haytham Salama](https://github.com/haythamasalama).
 Released under the [MIT License](LICENSE).

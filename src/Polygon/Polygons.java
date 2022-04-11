@@ -103,6 +103,21 @@ public class Polygons extends JPanelProject {
         );
     }
 
+    public void hexagonal(Graphics g,int x , int y ,int l){
+        int x1 = (int) (x - 0.5 * l);
+        int y1 = (int) (y - Math.sqrt(3) * l / 2);
+        int x2 = (int) (x + 0.5 * l);
+        int x3 = (x - l);
+        int x4 = (x + l);
+        int y5 = (int) (y + Math.sqrt(3) * l / 2);
+
+        g.fillPolygon(
+                new int[]{x1, x2, x4, x2, x1, x3},
+                new int[]{y1, y1, y, y5, y5, y},
+                6
+        );
+    }
+
     @Override
     public void paint(Graphics g) {
         super.paint(g);
@@ -111,6 +126,7 @@ public class Polygons extends JPanelProject {
         this.example3(g);
         this.psFlag(g);
         this.equilateralTriangle(g,200,200,200);
+        this.hexagonal(g,200,200,50);
     }
 
     public static void main(String[] args) {

@@ -6,6 +6,7 @@
 - [Triangle](#Triangle)
 - [Example3](#Example3)
 - [PS flag ](#PS-flag)
+- [Equilateral Triangle](#equilateral-triangle)
 
 ## Rectangle
 ![image](https://user-images.githubusercontent.com/37311945/162811273-760bbbdd-d779-4f0b-828f-f9deef523544.png)
@@ -18,3 +19,6 @@
 
 ## PS flag 
 ![image](https://user-images.githubusercontent.com/37311945/162816610-db97300b-3235-4ec8-b7cd-4010f199d281.png)
+
+## Equilateral Triangle
+![image](https://user-images.githubusercontent.com/37311945/162838443-b0ead43e-1549-4cb5-9233-dacc6e1fc6e6.png)

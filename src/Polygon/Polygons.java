@@ -64,12 +64,41 @@ public class Polygons extends JPanelProject {
         );
     }
 
+    public void psFlag(Graphics g) {
+        g.setColor(Color.black);
+        g.fillPolygon(
+                new int[]{100, 300, 300,100},
+                new int[]{100, 100, 150,150},
+                4
+        );
+        g.setColor(Color.green);
+        g.fillPolygon(
+                new int[]{100, 300, 300,100},
+                new int[]{200, 200, 250,250},
+                4
+        );
+        g.setColor(Color.white);
+        g.fillPolygon(
+                new int[]{100, 300, 300,100},
+                new int[]{150, 150, 200,200},
+                4
+        );
+        g.setColor(Color.red);
+        g.fillPolygon(
+                new int[]{175, 100, 100},
+                new int[]{175, 250, 100},
+                3
+        );
+    }
+
+
     @Override
     public void paint(Graphics g) {
         super.paint(g);
         this.rectangle(g);
         this.triangle(g);
         this.example3(g);
+        this.psFlag(g);
     }
 
     public static void main(String[] args) {

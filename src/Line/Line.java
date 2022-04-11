@@ -1,4 +1,4 @@
-package Lines;
+package Line;
 
 
 import SetupProject.JFrameProject;
@@ -6,7 +6,7 @@ import SetupProject.JPanelProject;
 
 import java.awt.*;
 
-public class Lines extends JPanelProject {
+public class Line extends JPanelProject {
 
 
     public void rectangle(Graphics g){
@@ -73,6 +73,6 @@ public class Lines extends JPanelProject {
     public static void main(String[] args) {
         System.out.println("welcome to graphic ---> lines");
         // drawLine method example
-        new JFrameProject(new Lines(), "lines");
+        new JFrameProject(new Line(), "lines");
     }
 }

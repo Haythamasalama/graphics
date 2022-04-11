@@ -66,6 +66,10 @@ public class Polygons extends JPanelProject {
 
     @Override
     public void paint(Graphics g) {
+        super.paint(g);
+        this.rectangle(g);
+        this.triangle(g);
+        this.example3(g);
     }
 
     public static void main(String[] args) {

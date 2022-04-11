@@ -91,6 +91,17 @@ public class Polygons extends JPanelProject {
         );
     }
 
+    public void equilateralTriangle(Graphics g,int x , int y ,int l){
+        int x1 = (int) (x - 0.5 * l);
+        int x2 = (int) (x + 0.5 * l);
+        int y1 = (int) (y + (Math.sqrt(3) * l)/2 );
+
+        g.fillPolygon(
+                new int[]{x, x1, x2},
+                new int[]{y, y1, y1},
+                3
+        );
+    }
 
     @Override
     public void paint(Graphics g) {
@@ -99,6 +110,7 @@ public class Polygons extends JPanelProject {
         this.triangle(g);
         this.example3(g);
         this.psFlag(g);
+        this.equilateralTriangle(g,200,200,200);
     }
 
     public static void main(String[] args) {

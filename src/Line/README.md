@@ -30,3 +30,12 @@
 ## Example6
 
 ![image](https://user-images.githubusercontent.com/37311945/162656690-7867592c-606c-4fed-bd99-ea5df33d72c0.png)
+
+## sin
+![image](https://user-images.githubusercontent.com/37311945/162854458-e0f2ff69-3f34-40c4-9b9b-ac8de6761d97.png)
+
+  >  cal for 360 degree
+ 
+![image](https://user-images.githubusercontent.com/37311945/162854409-a284e605-6792-4a13-b82e-a7ea7eda5aa4.png)
+ 
+ >  cal for 90 degree

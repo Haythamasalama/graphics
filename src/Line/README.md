@@ -2,12 +2,12 @@
 
 ## Contents
 
-- [Rectangle](#Rectangle)
-- [Triangle](#Triangle)
-- [H Letters](#H-Letters)
-- [Example5](#Example5)
-- [Example6](#Example6)
-
+- [Rectangle](#rectangle)
+- [Triangle](#triangle)
+- [H Letters](#h-letters)
+- [Example5](#example5)
+- [Example6](#example6)
+- [Sin](#sin)
 ## Rectangle
 
 ![image](https://user-images.githubusercontent.com/37311945/162656467-6ff97ef6-81cb-418e-a62b-612c13726953.png)

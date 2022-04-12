@@ -57,8 +57,35 @@ public class Line extends JPanelProject {
         g.drawLine( 150,100,250,300);
     }
 
-
-
+    /**
+     * draw sin fn
+     * y = a * sin( b * x)
+     * a => amplitude ( 1 )
+     * b => period (90 => 1 )
+     */
+    public void sin(Graphics g) {
+        int xc = 50, yc = 250;
+        // draw horizontal and verticals line
+        g.drawLine(xc, 0, xc, getHeight());
+        g.drawLine(0, yc, getWidth(), yc);
+        // cal for 360 degree
+        for (int x = 0; x <= 360; x++) {
+            int y = (int) (90 * Math.sin(Math.PI * x / 180));
+            g.drawLine(xc + x, yc - y, xc + x, yc - y);
+        }
+        // or cal for 90 degree
+        for (int x = 0; x <= 90; x++) {
+            int y = (int) (90 * Math.sin(Math.PI * x / 180));
+            g.setColor(Color.red);
+            g.drawLine(xc + x, yc - y, xc + x, yc - y);
+            g.setColor(Color.black);
+            g.drawLine(xc + 180 - x, yc - y, xc + 180 - x, yc - y);
+            g.setColor(Color.orange);
+            g.drawLine(xc + 180 + x, yc + y, xc + 180 + x, yc + y);
+            g.setColor(Color.green);
+            g.drawLine(xc + 360 - x, yc + y, xc + 360 - x, yc + y);
+        }
+    }
 
     @Override
     public void paint(Graphics g) {
@@ -68,6 +95,7 @@ public class Line extends JPanelProject {
         this.hLetters(g);
         this.example5(g);
         this.example6(g);
+        this.sin(g);
     }
 
     public static void main(String[] args) {

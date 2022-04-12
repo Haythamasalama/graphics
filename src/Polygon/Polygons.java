@@ -121,7 +121,11 @@ public class Polygons extends JPanelProject {
     @Override
     public void paint(Graphics g) {
         super.paint(g);
-        // choose the function you want to print
+        this.rectangle(g);
+        this.triangle(g);
+        this.example3(g);
+        this.psFlag(g);
+        this.equilateralTriangle(g,200,200,200);
         this.hexagonal(g,200,200,50);
     }
 

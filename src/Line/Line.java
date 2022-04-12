@@ -90,8 +90,12 @@ public class Line extends JPanelProject {
     @Override
     public void paint(Graphics g) {
         super.paint(g);
-        // choose the function you want to print
         this.rectangle(g);
+        this.triangle(g);
+        this.hLetters(g);
+        this.example5(g);
+        this.example6(g);
+        this.sin(g);
     }
 
     public static void main(String[] args) {

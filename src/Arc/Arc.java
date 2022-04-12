@@ -22,7 +22,7 @@ public class Arc extends JPanelProject {
     @Override
     public void paint(Graphics g) {
         super.paint(g);
-        // choose the function you want to print
+        this.circle(g);
         this.example1(g);
     }
 

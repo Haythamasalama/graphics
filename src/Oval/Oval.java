@@ -134,16 +134,7 @@ public class Oval extends JPanelProject {
     @Override
     public void paint(Graphics g) {
         super.paint(g);
-        this.circle(g);
-        this.oval(g);
-        this.example3(g);
-        this.example4(g);
-        this.example5(g);
-        this.example6(g);
-        this.example7(g);
-        this.example8(g);
-        this.example9(g);
-        this.example10(g);
+        // choose the function you want to print
         this.example11(g);
     }
 

@@ -34,7 +34,7 @@ $ git clone https://github.com/HaythamaSalama/graphic-java
 
 ![image](https://user-images.githubusercontent.com/37311945/163045542-72ad07d3-c121-4f89-95cd-bd4d80301231.png)
 
-* If you need to draw a specific function or show the output put the function on `paint` functon to show the output. by default, all functions exist on `paint`  
+* If you need to draw a specific function or show the output put the function on `paint` functon to show the output. by default, all functions exist on `paint` but it's committed 
  
  example this is paint method on `Oval` Class  you need to show the output the `example11()` : 
   
@@ -44,17 +44,17 @@ $ git clone https://github.com/HaythamaSalama/graphic-java
 @Override
 public void paint(Graphics g) {
     super.paint(g);
-    this.circle(g);
-    this.oval(g);
-    this.example3(g);
-    this.example4(g);
-    this.example5(g);
-    this.example6(g);
-    this.example7(g);
-    this.example8(g);
-    this.example9(g);
-    this.example10(g);
-    this.example11(g);
+//    this.circle(g);
+//    this.oval(g);
+//    this.example3(g);
+//    this.example4(g);
+//    this.example5(g);
+//    this.example6(g);
+//    this.example7(g);
+//    this.example8(g);
+//    this.example9(g);
+//    this.example10(g);
+//    this.example11(g);
 }
 ```
   
@@ -64,7 +64,17 @@ public void paint(Graphics g) {
 @Override
 public void paint(Graphics g) {
     super.paint(g);
-    this.example11(g);
+//    this.circle(g);
+//    this.oval(g);
+//    this.example3(g);
+//    this.example4(g);
+//    this.example5(g);
+//    this.example6(g);
+//    this.example7(g);
+//    this.example8(g);
+//    this.example9(g);
+//    this.example10(g);
+   this.example11(g);
 }
 ```
 

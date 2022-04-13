@@ -16,7 +16,7 @@ public class Rectangle extends JPanelProject {
     @Override
     public void paint(Graphics g) {
         super.paint(g);
-        this.rectangle(g);
+//        this.rectangle(g);
     }
 
     public static void main(String[] args) {

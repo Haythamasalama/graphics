@@ -63,7 +63,7 @@ public class Line extends JPanelProject {
      * a => amplitude ( 1 )
      * b => period (90 => 1 )
      */
-    public void sin(Graphics g) {
+    public void sin360(Graphics g) {
         int xc = 50, yc = 250;
         // draw horizontal and verticals line
         g.drawLine(xc, 0, xc, getHeight());
@@ -73,6 +73,13 @@ public class Line extends JPanelProject {
             int y = (int) (90 * Math.sin(Math.PI * x / 180));
             g.drawLine(xc + x, yc - y, xc + x, yc - y);
         }
+    }
+
+    public void sin90(Graphics g) {
+        int xc = 50, yc = 250;
+        // draw horizontal and verticals line
+        g.drawLine(xc, 0, xc, getHeight());
+        g.drawLine(0, yc, getWidth(), yc);
         // or cal for 90 degree
         for (int x = 0; x <= 90; x++) {
             int y = (int) (90 * Math.sin(Math.PI * x / 180));
@@ -90,12 +97,13 @@ public class Line extends JPanelProject {
     @Override
     public void paint(Graphics g) {
         super.paint(g);
-        this.rectangle(g);
-        this.triangle(g);
-        this.hLetters(g);
-        this.example5(g);
-        this.example6(g);
-        this.sin(g);
+//        this.rectangle(g);
+//        this.triangle(g);
+//        this.hLetters(g);
+//        this.example5(g);
+//        this.example6(g);
+//        this.sin360(g);
+//        this.sin90(g);
     }
 
     public static void main(String[] args) {

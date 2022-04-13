@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
 class Car extends JPanelProject implements ActionListener {
 
     Timer timer;
-    int x = 50, y = 50, width = 180;
+    int x = 10, y = 50, width = 180;
 
     public Car() {
         timer = new Timer(100, this);
@@ -33,7 +33,7 @@ class Car extends JPanelProject implements ActionListener {
     public void actionPerformed(ActionEvent event) {
         x += 5;
         if (x > getWidth())
-            x = 0;
+            x = -20;
         repaint();
     }
 

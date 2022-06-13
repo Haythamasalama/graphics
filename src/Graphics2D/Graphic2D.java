@@ -9,7 +9,6 @@ import java.awt.geom.AffineTransform;
 
 public class Graphic2D extends JPanelProject {
     Graphics2D g2d;
-    Graphics g;
 
     public void example1(Graphics g) {
         g2d = (Graphics2D) g;

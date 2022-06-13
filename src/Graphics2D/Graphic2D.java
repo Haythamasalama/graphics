@@ -98,7 +98,7 @@ public class Graphic2D extends JPanelProject {
     public void example5(Graphics g) {
         g2d = (Graphics2D) g;
         g2d.translate(100, 100);
-        for (int i=0 ; i<3 ;i++){
+        for (int i = 0; i < 3; i++) {
             g2d.drawLine(0, 0, 80, 0);
             g2d.translate(80, 0);
             g2d.rotate(-120 * Math.PI / 180);
@@ -108,8 +108,8 @@ public class Graphic2D extends JPanelProject {
     public void example5WithHelper(Graphics g) {
         g2d = (Graphics2D) g;
         Helpers.moveTo(100, 100, g2d);
-        for (int i=0 ; i<3 ;i++){
-            Helpers.forward(80,g2d);
+        for (int i = 0; i < 3; i++) {
+            Helpers.forward(80, g2d);
             Helpers.left(120, g2d);
         }
     }
@@ -117,7 +117,7 @@ public class Graphic2D extends JPanelProject {
     public void example6WithHelper(Graphics g) {
         g2d = (Graphics2D) g;
         Helpers.moveTo(100, 100, g2d);
-        for (int i=0 ; i<4 ;i++){
+        for (int i=0 ; i<4 ;i++) {
             Helpers.forward(80,g2d);
             Helpers.right(90, g2d);
         }

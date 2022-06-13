@@ -49,6 +49,29 @@ public class Graphic2D extends JPanelProject {
         g2d.drawPolygon(p);
     }
 
+    public void example4(Graphics g) {
+        g2d = (Graphics2D) g;
+        // to change coordinates x and y
+        g2d.translate(100, 100);
+        // 1
+        g2d.setColor(Color.green);
+        g2d.drawLine(0, 0, 100, 0);
+        // 2
+        g2d.setColor(Color.yellow);
+        g2d.translate(100, 0);
+        g2d.rotate(-60 * Math.PI / 180);
+        g2d.drawLine(0, 0, 50, 0);
+        // 3
+        g2d.setColor(Color.red);
+        g2d.translate(50, 0);
+        g2d.rotate(-120 * Math.PI / 180);
+        g2d.drawLine(0, 0, 100, 0);
+        // 4
+        g2d.setColor(Color.blue);
+        g2d.translate(100, 0);
+        g2d.rotate(-60 * Math.PI / 180);
+        g2d.drawLine(0, 0, 50, 0);
+    }
     public static void main(String[] args) {
         System.out.println("welcome to graphic ---> Graphic2D");
         new JFrameProject(new Graphic2D(), "Polygon");

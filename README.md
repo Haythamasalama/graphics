@@ -14,6 +14,7 @@
 - [Arc](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Arc)
 - [Animations](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Animations)
 - [Polygon](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Polygon)
+- [Graphics2D](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Graphics2D)
 - [Helpers](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Helpers)
 - [Contributing](#Contributing)
 - [License](#License)

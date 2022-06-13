@@ -93,6 +93,17 @@ public class Graphic2D extends JPanelProject {
         Helpers.forward(50, g2d);
         Helpers.left(120, g2d);
     }
+
+    public void example5(Graphics g) {
+        g2d = (Graphics2D) g;
+        g2d.translate(100, 100);
+        for (int i=0 ; i<3 ;i++){
+            g2d.drawLine(0, 0, 80, 0);
+            g2d.translate(80, 0);
+            g2d.rotate(-120 * Math.PI / 180);
+        }
+    }
+
     public static void main(String[] args) {
         System.out.println("welcome to graphic ---> Graphic2D");
         new JFrameProject(new Graphic2D(), "Polygon");

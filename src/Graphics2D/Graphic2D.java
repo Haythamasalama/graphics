@@ -72,6 +72,27 @@ public class Graphic2D extends JPanelProject {
         g2d.rotate(-60 * Math.PI / 180);
         g2d.drawLine(0, 0, 50, 0);
     }
+
+    public void example4WithHelper(Graphics g) {
+        g2d = (Graphics2D) g;
+        Helpers.moveTo(100, 100, g2d);
+        // 1
+        g2d.setColor(Color.green);
+        Helpers.forward(100, g2d);
+        Helpers.left(60, g2d);
+        // 2
+        g2d.setColor(Color.yellow);
+        Helpers.forward(50, g2d);
+        Helpers.left(120, g2d);
+        // 3
+        g2d.setColor(Color.red);
+        Helpers.forward(100, g2d);
+        Helpers.left(60, g2d);
+        // 4
+        g2d.setColor(Color.blue);
+        Helpers.forward(50, g2d);
+        Helpers.left(120, g2d);
+    }
     public static void main(String[] args) {
         System.out.println("welcome to graphic ---> Graphic2D");
         new JFrameProject(new Graphic2D(), "Polygon");

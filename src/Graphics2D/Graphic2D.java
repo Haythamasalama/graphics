@@ -34,6 +34,21 @@ public class Graphic2D extends JPanelProject {
         Helpers.scale(0.5, 0.5, 100, 100, g2d);
         g2d.drawPolygon(p);
     }
+
+    public void example3(Graphics g) {
+        g2d = (Graphics2D) g;
+        Polygon p = new Polygon(
+                new int[]{100, 200, 200, 100, 100},
+                new int[]{100, 100, 150, 150, 100},
+                5
+        );
+        g2d.drawPolygon(p);
+        AffineTransform t = new AffineTransform();
+        t.rotate(40 * Math.PI / 180);
+        g2d.setTransform(t);
+        g2d.drawPolygon(p);
+    }
+
     public static void main(String[] args) {
         System.out.println("welcome to graphic ---> Graphic2D");
         new JFrameProject(new Graphic2D(), "Polygon");

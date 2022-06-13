@@ -163,6 +163,26 @@ public class Graphic2D extends JPanelProject {
             Helpers.left(90, g2d);
         }
     }
+
+    public void example10WithHelper(Graphics g) {
+        g2d = (Graphics2D) g;
+        Helpers.moveTo(100, 100, g2d);
+        for (int j = 0; j < 4; j++) {
+            //1
+            g2d.setColor(Color.green);
+            Helpers.forward(100, g2d);
+            Helpers.left(90, g2d);
+            //2
+            g2d.setColor(Color.BLACK);
+            Helpers.forward(20, g2d);
+            Helpers.left(90, g2d);
+            //3
+            g2d.setColor(Color.pink);
+            Helpers.forward(20, g2d);
+            Helpers.left(90, g2d);
+        }
+    }
+
     public static void main(String[] args) {
         System.out.println("welcome to graphic ---> Graphic2D");
         new JFrameProject(new Graphic2D(), "Polygon");

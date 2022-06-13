@@ -183,6 +183,22 @@ public class Graphic2D extends JPanelProject {
         }
     }
 
+    @Override
+    public void paint(Graphics g) {
+        super.paint(g);
+//        this.example1(g);
+//        this.example2(g);
+//        this.example3(g);
+//        this.example4(g);
+//        this.example4WithHelper(g);
+//        this.example5(g);
+//        this.example5WithHelper(g);
+//        this.example6WithHelper(g);
+//        this.example7WithHelper(g);
+//        this.example8WithHelper(g);
+//        this.example9WithHelper(g);
+    }
+
     public static void main(String[] args) {
         System.out.println("welcome to graphic ---> Graphic2D");
         new JFrameProject(new Graphic2D(), "Polygon");

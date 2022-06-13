@@ -180,6 +180,22 @@ public class Graphic2D extends JPanelProject {
         //4
         Helpers.forward(100, g2d);
     }
+
+    public void example11WithHelper(Graphics g) {
+        g2d = (Graphics2D) g;
+        Helpers.moveTo(100, 200, g2d);
+        //1
+        Helpers.forward(100, g2d);
+        Helpers.left(60, g2d);
+        //2
+        Helpers.forward(100, g2d);
+        Helpers.right(120, g2d);
+        //3
+        Helpers.forward(100, g2d);
+        Helpers.left(60, g2d);
+        //4
+        Helpers.forward(100, g2d);
+    }
         }
     }
 

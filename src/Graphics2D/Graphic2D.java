@@ -290,6 +290,14 @@ public class Graphic2D extends JPanelProject {
 //        this.example7WithHelper(g);
 //        this.example8WithHelper(g);
 //        this.example9WithHelper(g);
+//        this.example10WithHelper(g);
+//        this.example11WithHelper(g);
+//        this.example12WithHelper(g);
+//        this.example13WithHelper(g);
+//        this.example14WithHelper(g);
+//        this.example15WithHelper(g,"F--F--F",60);
+//        this.example15WithHelper(g,"F-F+F+F-F-FF-FF",120);
+//        this.example15WithHelper(g,"F-FFFF+FF-F-FFFFF-F-FF+FFFF",90);
     }
 
     public static void main(String[] args) {

@@ -188,6 +188,6 @@ public class Graphic2D extends JPanelProject {
 
     public static void main(String[] args) {
         System.out.println("welcome to graphic ---> Graphic2D");
-        new JFrameProject(new Graphic2D(), "Polygon");
+        new JFrameProject(new Graphic2D(), "Graphic2D");
     }
 }

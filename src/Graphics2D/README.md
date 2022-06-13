@@ -14,6 +14,13 @@
 - [Example8WithHelper](#example8WithHelper)
 - [Example9WithHelper](#example9WithHelper)
 - [Example10WithHelper](#example10WithHelper)
+- [Example11WithHelper](#Example11WithHelper)
+- [Example12WithHelper](#Example12WithHelper)
+- [Example13WithHelper](#Example13WithHelper)
+- [Example14WithHelper](#Example14WithHelper)
+- [Example15WithHelper-1](#example15withhelper---1)
+- [Example15WithHelper-2](#example15withhelper---2)
+- [Example15WithHelper-3](#example15withhelper---3)
 
 ## Example1
 ![image](https://user-images.githubusercontent.com/37311945/173377897-911c571a-987f-4084-bffe-4797c478b838.png)
@@ -50,4 +57,16 @@
 
 ## Example10WithHelper
 
+## Example11WithHelper
 
+## Example12WithHelper
+
+## Example13WithHelper
+
+## Example14WithHelper
+
+## Example15WithHelper - 1
+
+## Example15WithHelper - 2
+
+## Example15WithHelper - 3

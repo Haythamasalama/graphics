@@ -34,7 +34,7 @@ public class Helpers {
         g2d.scale(sx, sy);
         g2d.translate(-x, -y);
     }
-    
+
     /**
      *  draw line thant translate
      * @param length

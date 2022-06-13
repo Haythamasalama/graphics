@@ -45,6 +45,7 @@ public class Graphic2D extends JPanelProject {
         g2d.drawPolygon(p);
         AffineTransform t = new AffineTransform();
         t.rotate(40 * Math.PI / 180);
+        t.translate(100,0);
         g2d.setTransform(t);
         g2d.drawPolygon(p);
     }

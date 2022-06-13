@@ -253,6 +253,27 @@ public class Graphic2D extends JPanelProject {
             Helpers.right(120, g2d);
        }
     }
+
+    public void example15WithHelper(Graphics g, String string,int theta) {
+        g2d = (Graphics2D) g;
+        Helpers.moveTo(150, 300, g2d);
+
+        for (int i = 0; i < string.length(); i++) {
+            if (string.charAt(i) == 'f') {
+                g2d.translate(50, 0);
+            }
+
+            if (string.charAt(i) == 'F') {
+                Helpers.forward(50, g2d);
+            }
+
+            if (string.charAt(i) == '+') {
+                Helpers.right(theta, g2d);
+            }
+
+            if (string.charAt(i) == '-') {
+                Helpers.left(theta, g2d);
+            }
         }
     }
 

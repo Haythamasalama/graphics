@@ -15,6 +15,7 @@
 - [Animations](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Animations)
 - [Polygon](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Polygon)
 - [Graphics2D](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Graphics2D)
+- [Fractals](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Fractals)
 - [Helpers](https://github.com/HaythamaSalama/graphic-java/tree/master/src/Helpers)
 - [Contributing](#Contributing)
 - [License](#License)

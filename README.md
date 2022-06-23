@@ -2,7 +2,7 @@
 ![github](https://user-images.githubusercontent.com/37311945/162650428-df026403-68ba-48bb-b88a-fc62dc9cb430.jpg)
 
 
-> Rep For Graphics Example on Java Using Graphic Class  
+> Rep For Graphics Example on Java Using Graphic and Graphics2D Class  
 
 ## Contents 
 
